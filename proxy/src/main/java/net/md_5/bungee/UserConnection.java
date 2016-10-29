@@ -277,7 +277,7 @@ public final class UserConnection implements ProxiedPlayer
                 callback.done( false, null );
             }
 
-            sendMessage( bungee.getTranslation( "already_connecting" ) );
+            // sendMessage( bungee.getTranslation( "already_connecting" ) );
             return;
         }
 
