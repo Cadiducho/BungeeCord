@@ -279,7 +279,7 @@ public final class UserConnection implements ProxiedPlayer
                 callback.done( false, null );
             }
 
-            // sendMessage( bungee.getTranslation( "already_connecting" ) );
+            // sendMessage( bungee.getTranslation( "already_connecting" ) ); Cadiducho: Disable Already Connecting message
             return;
         }
 
